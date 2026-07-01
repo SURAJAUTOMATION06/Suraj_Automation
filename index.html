@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock - Multiple Time Zones</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>⏰ Digital Clock</h1>
+        <p class="subtitle">Current Time in Different Time Zones</p>
+        
+        <div class="clocks-grid">
+            <!-- New York -->
+            <div class="clock-card">
+                <div class="timezone-header">
+                    <h2>New York</h2>
+                    <p class="timezone-code">EST/EDT (UTC-5/-4)</p>
+                </div>
+                <div class="time-display" id="nyc">
+                    <span class="time">00:00:00</span>
+                    <span class="period">AM</span>
+                </div>
+                <p class="date" id="nyc-date">Loading...</p>
+            </div>
+
+            <!-- London -->
+            <div class="clock-card">
+                <div class="timezone-header">
+                    <h2>London</h2>
+                    <p class="timezone-code">GMT/BST (UTC+0/+1)</p>
+                </div>
+                <div class="time-display" id="london">
+                    <span class="time">00:00:00</span>
+                    <span class="period">AM</span>
+                </div>
+                <p class="date" id="london-date">Loading...</p>
+            </div>
+
+            <!-- Tokyo -->
+            <div class="clock-card">
+                <div class="timezone-header">
+                    <h2>Tokyo</h2>
+                    <p class="timezone-code">JST (UTC+9)</p>
+                </div>
+                <div class="time-display" id="tokyo">
+                    <span class="time">00:00:00</span>
+                    <span class="period">AM</span>
+                </div>
+                <p class="date" id="tokyo-date">Loading...</p>
+            </div>
+
+            <!-- Sydney -->
+            <div class="clock-card">
+                <div class="timezone-header">
+                    <h2>Sydney</h2>
+                    <p class="timezone-code">AEST/AEDT (UTC+10/+11)</p>
+                </div>
+                <div class="time-display" id="sydney">
+                    <span class="time">00:00:00</span>
+                    <span class="period">AM</span>
+                </div>
+                <p class="date" id="sydney-date">Loading...</p>
+            </div>
+
+            <!-- Dubai -->
+            <div class="clock-card">
+                <div class="timezone-header">
+                    <h2>Dubai</h2>
+                    <p class="timezone-code">GST (UTC+4)</p>
+                </div>
+                <div class="time-display" id="dubai">
+                    <span class="time">00:00:00</span>
+                    <span class="period">AM</span>
+                </div>
+                <p class="date" id="dubai-date">Loading...</p>
+            </div>
+
+            <!-- Singapore -->
+            <div class="clock-card">
+                <div class="timezone-header">
+                    <h2>Singapore</h2>
+                    <p class="timezone-code">SGT (UTC+8)</p>
+                </div>
+                <div class="time-display" id="singapore">
+                    <span class="time">00:00:00</span>
+                    <span class="period">AM</span>
+                </div>
+                <p class="date" id="singapore-date">Loading...</p>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <h3>Local Time</h3>
+            <div class="local-time">
+                <div class="time-display" id="local">
+                    <span class="time">00:00:00</span>
+                    <span class="period">AM</span>
+                </div>
+                <p class="date" id="local-date">Loading...</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
