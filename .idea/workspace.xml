@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="477ca3cb-72bf-43a9-9026-055bbc75a56f" name="Changes" comment="Commit">
       <changelist_data name="suraj.pawar" email="surajspawar06@gmail.com" automatic="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CISCOARRAYQUESTION.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CISCOARRAYQUESTION.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PatternofinverseTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PatternofinverseTriangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
