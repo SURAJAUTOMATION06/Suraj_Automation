@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="477ca3cb-72bf-43a9-9026-055bbc75a56f" name="Changes" comment="Commit">
       <changelist_data name="suraj.pawar" email="surajspawar06@gmail.com" automatic="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CISCOARRAYQUESTION.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CISCOARRAYQUESTION.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PatternofinverseTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PatternofinverseTriangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,12 +44,12 @@
     &quot;assignee&quot;: &quot;SURAJAUTOMATION06&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/SURAJAUTOMATION06/Suraj_Automation.git",
-    "accountId": "142572e8-f07d-42d8-889d-18566eccd601"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SURAJAUTOMATION06/Suraj_Automation.git&quot;,
+    &quot;accountId&quot;: &quot;142572e8-f07d-42d8-889d-18566eccd601&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
     <option name="sortByName" value="true" />
@@ -70,11 +71,14 @@
     "Application.AttendanceCorrection.executor": "Run",
     "Application.BikemodificationAbstractclass.executor": "Run",
     "Application.CISCOARRAYQUESTION.executor": "Debug",
+    "Application.Calendarprogram.executor": "Run",
+    "Application.Constructordemo.executor": "Run",
     "Application.Corejavabrushup.executor": "Run",
     "Application.Corejavabrushup2.executor": "Run",
     "Application.Cubicpattern.executor": "Run",
     "Application.DailyAttendance.executor": "Run",
     "Application.DailyAttendance_Application.executor": "Run",
+    "Application.DateandTime.executor": "Run",
     "Application.DoWhileDemo.executor": "Run",
     "Application.Ess_AtdCorrection.executor": "Run",
     "Application.Ess_Login.executor": "Run",
@@ -99,7 +103,7 @@
     "Application.Overtime_Coff.executor": "Run",
     "Application.POPTHENUMBER.executor": "Run",
     "Application.PasswordSet.executor": "Run",
-    "Application.PatternofinverseTriangle.executor": "Run",
+    "Application.PatternofinverseTriangle.executor": "Debug",
     "Application.Reverseofarray.executor": "Run",
     "Application.Rightalign.executor": "Run",
     "Application.SortLeave.executor": "Run",
@@ -267,21 +271,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Commit" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/CISCOARRAYQUESTION.java</url>
-          <line>5</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/PatternofinverseTriangle.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -13,7 +13,6 @@ public class CISCOARRAYQUESTION {
                     min = array[i][j];
                     mincolumn = j;
                 }
-
             }
         }
         int max = array[0][mincolumn];
