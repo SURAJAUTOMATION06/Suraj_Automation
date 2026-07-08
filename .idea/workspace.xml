@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="477ca3cb-72bf-43a9-9026-055bbc75a56f" name="Changes" comment="Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Constructordemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Constructordemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Constructordemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Constructordemo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,10 +109,11 @@
     "Application.Udemy.executor": "Run",
     "Application.Update.executor": "Run",
     "Application.Whileloop.executor": "Run",
+    "Application.add.executor": "Debug",
     "Application.nestedloops.executor": "Run",
-    "Application.palindrome.executor": "Run",
+    "Application.palindrome.executor": "Debug",
     "Application.palindrome2.executor": "Run",
-    "Application.pattern.executor": "Run",
+    "Application.pattern.executor": "Debug",
     "Application.patternforloop.executor": "Run",
     "Application.smallestnomatrix.executor": "Debug",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -120,10 +123,10 @@
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/backup/Application Script/Data_Preparation",
     "onboarding.tips.debug.path": "B:/Automation Practice/Data_Preparation/Data_Preparation/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.33442622",
-    "settings.editor.selected.configurable": "preferences.keymap"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
   "keyToStringList": {
     "ChangesTree.GroupingKeys": [
@@ -323,5 +326,30 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/add.java</url>
+          <line>3</line>
+          <properties class="org.example.add" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/palindrome.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/pattern.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

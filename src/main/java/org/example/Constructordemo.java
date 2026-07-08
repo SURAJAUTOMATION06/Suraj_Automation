@@ -4,7 +4,7 @@ public class Constructordemo {
     /* Constructor:- A constructor Execute a block of code when the object is created and will not return any value a
     and the name of the Constructor should always same as class name */
 
-   public  Constructordemo(){
+   public  Constructordemo(){ //This is the default constructor
         System.out.println("Constructor is called");
     }
 
