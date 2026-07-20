@@ -7,12 +7,8 @@
     <list default="true" id="477ca3cb-72bf-43a9-9026-055bbc75a56f" name="Changes" comment="Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EssLogin/SortLeave.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Constructordemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Constructordemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/add.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/add.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/EssLogin/SortLeave.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Constructordemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Constructordemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/add.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/add.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Suraj_Automation/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Suraj_Automation/Locators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Suraj_Automation/Locators.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Suraj_Automation/Locators.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +149,7 @@
       <recent name="D:\backup\Application Script\Data_Preparation\.idea" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Locators">
     <configuration name="AdvanceOvertime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.AdvanceOvertime" />
       <module name="Data_Preparation" />

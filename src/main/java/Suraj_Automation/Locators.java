@@ -1,8 +1,11 @@
 package Suraj_Automation;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.FindBy;
+
 import java.time.Duration;
 
 
@@ -26,6 +29,9 @@ public class Locators {
         driver.findElement(By.linkText("Forgot Password?")).click();
         Thread.sleep(1000);
         System.out.println(driver.findElement(By.cssSelector("#ValidationMsg")).getText());
+        Assert.assertEquals(driver.findElement(By.cssSelector("#ValidationMsg")).getText(),"Login ID should not be blank"); /*For the Comparision of \
+                                                                                                                                    the Text*/
+
         driver.findElement(By.id("loginid")).sendKeys("sa"); //This is used to find the locators and to send the Inputs in it.
         driver.findElement(By.id("pwd")).sendKeys("Admin@1");
         driver.findElement(By.id("btnlogin")).click();
@@ -38,6 +44,7 @@ public class Locators {
         driver.findElement(By.id("txtCurrPwd")).sendKeys("Admin@1");
         driver.findElement(By.id("txtNewPwd")).sendKeys("admin");
         driver.findElement(By.id("txtConfirmPwd")).sendKeys("admin");
+        driver.findElement(By.xpath("(//input[@name='btnPwdChange'])")).click();
         driver.findElement(By.xpath("(//input[@name='btnPwdChange'])")).click();
         driver.findElement(By.id("loginid")).sendKeys("sa"); //This is used to find the locators and to send the Inputs in it.
         driver.findElement(By.id("pwd")).sendKeys("admin");
