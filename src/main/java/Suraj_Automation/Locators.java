@@ -11,7 +11,7 @@ import java.time.Duration;
 
 public class Locators {
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException{
         WebDriverManager.chromedriver().setup();//For the Web Driver Manager to manage the Driver.
         WebDriver driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));/*This is an Implicit Wait method which is Used for the
@@ -49,7 +49,6 @@ public class Locators {
         driver.findElement(By.id("loginid")).sendKeys("sa"); //This is used to find the locators and to send the Inputs in it.
         driver.findElement(By.id("pwd")).sendKeys("admin");
         driver.findElement(By.id("btnlogin")).click();
-
         driver.quit();
 
 
